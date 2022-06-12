@@ -7,7 +7,7 @@ public class StringPermutation {
             return; 
         }
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) { 
             char ch = str.charAt(i);
             String ros = str.substring(0, i) + str.substring(i + 1);
             permutate(ros, ans + ch);
