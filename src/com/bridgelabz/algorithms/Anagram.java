@@ -5,8 +5,8 @@ class Anagram {
         String a1 = "earth";
         String a2 = "heart3";
 
-        char ch1[] = a1.toCharArray();
-        char ch2[] = a2.toCharArray();
+        char ch1[] = a1.toLowerCase().toCharArray();
+        char ch2[] = a2.toLowerCase().toCharArray();
         boolean flag = true;
 
 
