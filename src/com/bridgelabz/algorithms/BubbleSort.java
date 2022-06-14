@@ -1,3 +1,5 @@
+package com.bridgelabz.algorithms;
+
 public class BubbleSort {
     public static void main(String[] args) {
         String[] arr = {"e", "a", "c", "z", "h"};
